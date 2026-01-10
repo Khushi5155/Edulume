@@ -1,5 +1,7 @@
-import React, { useState } from "react";
+ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import SEO from '../../components/seo/SEO';
+
 import { Lightbulb, Send, ArrowLeft } from "lucide-react";
 
 const FeatureSuggestionPage: React.FC = () => {
@@ -101,6 +103,13 @@ const FeatureSuggestionPage: React.FC = () => {
   }
 
   return (
+    <>
+    <SEO
+  title="Suggest a Feature - Edulume"
+  description="Share your ideas and suggest new features to improve Edulume for everyone."
+  canonical="https://edulume.site/suggest-feature"
+/>
+
     <div className="min-h-screen pt-20 px-4">
       <div className="max-w-2xl mx-auto">
         <button
@@ -204,6 +213,7 @@ const FeatureSuggestionPage: React.FC = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
