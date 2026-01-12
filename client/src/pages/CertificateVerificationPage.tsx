@@ -158,9 +158,9 @@ const CertificateVerificationPage: React.FC = () => {
   return (
     <>
     <SEO
-  title="Certificate Verification - Edulume"
+  title="Certificate Verification"
   description="Verify the authenticity of Edulume certificates easily and securely."
-  canonical="https://edulume.site/verify-certificate"
+  canonicalUrl="https://edulume.site/verify-certificate"
 />
     <div className="min-h-screen py-8">
       <div className="max-w-4xl mx-auto px-4">
